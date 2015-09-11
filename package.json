@@ -1,6 +1,6 @@
 {
   "name": "deep-sync",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Recursively synchronizes two JS objects where the target becomes the source, without changing the target values for the keys that it has in common with the source.",
   "main": "index.js",
   "scripts": {
