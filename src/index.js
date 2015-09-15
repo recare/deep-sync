@@ -13,7 +13,7 @@ import {TypeError} from './errors';
  * @param overwrite - overwrites existing keys if true
  * @returns {{}}
  */
-function deepSync(target, source, overwrite, test, testi) {
+function deepSync(target, source, overwrite) {
 
     if (!(((target) && (typeof target === 'object')) &&
         ((source) && (typeof source === 'object'))) ||
